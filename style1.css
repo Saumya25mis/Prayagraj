@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(#a1c4fd , #c2e9fb);
+    background-repeat: no-repeat;
+}
+.container{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    text-align: center;
+}
+ .head{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+h2{
+    margin-top:50px;
+    margin-left:20px
+}
+.side{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+}
+.card{
+    margin: 40px;
+}
+.card-img-top{
+    height:20vw;
+}
+.mr-3{
+    border:2px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    height: auto;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 30px ;
+}
